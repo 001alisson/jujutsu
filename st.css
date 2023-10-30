@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: rgb(15, 14, 14);
+    padding-top: 150px;
+}
+
+.navp{
+    position: fixed;
+    top: 0;
+
+    display:flex;
+    flex-flow: row;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100%;
+}
+.logo{
+    flex: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.menu{
+    margin-top: 50px;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 30px;
+}
+.menu a{
+    background: black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    margin: 10px;
+}
+.menu a:hover{
+    border-bottom: 5px solid white;
+    color: rgb(187, 187, 187);
+}
+#botaoc{
+    background: gray;
+    color: black;
+    font-weight: 900;
+    margin-left: 50px;
+    border-radius: 20px;
+    border-top: 2px solid gray;
+    border-bottom: 4px solid white;
+}
+#botaoc:hover{
+    color: black;
+    border:none;
+}
+
+.principal{
+    height: 450px;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    justify-content: center;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.texto{
+    justify-content: flex-start;
+    flex: 45%;
+    padding: 10px;
+   
+    margin: 2%;
+}
+.texto h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    box-shadow: 1px 1px 5px white;
+    text-shadow: 0px 3px 5px white;
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.texto p{
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    box-shadow: 2px 2px 5px white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.imagem{
+    flex: 35%;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 10px;
+    
+    margin-left: 2%;
+}
+.cardbo{
+    flex: 5%;
+    flex-direction: column;
+    height: 500px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bg{
+    border-radius: 50%;
+    padding: 30px ;
+    
+    margin-top: 10%;
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    background-image: url(Gojo.png);
+    background-size: cover;
+    background-color: rgb(94, 174, 211);
+}
+.bi{
+    border-radius: 50%;
+    padding: 30px;
+    margin-top: 10%;
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    background-image: url(itadori.webp);
+    background-size: cover;
+    background-color: rgb(255, 190, 50);
+}
+.bf{
+    border-radius: 50%;
+    padding: 30px;
+    margin-top: 10%;
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    background-image: url(fushiguro.png);
+    background-size: cover;
+    background-color: rgb(76, 76, 255);
+}
+.bn{
+    border-radius: 50%;
+    padding: 30px;
+    margin-top: 10%;
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    background-image: url(nobara.webp);
+    background-size: cover;
+    background-color: rgb(255, 146, 146);
+}
+.bs{
+    border-radius: 50%;
+    padding: 30px;
+    margin-top: 10%;
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    background-image: url(sukuna.png);
+    background-size: cover;
+}
+
+.t{
+    font-size: 30px;
+    color: rgb(180, 0, 0);
+    text-align: center;
+    box-shadow: 2px 2px 5px red;
+}
+
+.conteiner{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+.caixa_sobre{
+    box-shadow: 2px 2px 5px white;
+    padding: 30px;
+    text-align: justify;
+    flex: 60%;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    text-indent: 20px;
+    font-weight: 900;
+    
+}
+.imagem_sobre{
+    flex: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid white;
+}
+footer{
+    background: linear-gradient(rgb(15, 14, 14),rgb(139, 0, 0));
+    text-align: center;
+    height: 200px;
+}
